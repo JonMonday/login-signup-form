@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/ac24780a9d.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/signup.css">
+
+    <title>Form</title>
 </head>
 <body>
-    
+    <section class="Neumorphism">
+        <header>
+            <div class="logo">
+                <i class="fas fa-user-cog"></i>
+            </div>
+            <h1>Sign Up</h1>
+        </header>
+        <form class="form" id="form">
+            <div class="form-control success">
+                <label><i class="far fa-user"></i>Username</label>
+                <input type="text">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>error message</small>
+            </div>
+
+            <div class="form-control error">
+                <label><i class="far fa-envelope-open"></i>Email</label>
+                <input type="email">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>error message</small>
+            </div>
+
+            <div class="form-control">
+                <label><i class="fas fa-lock"></i>Password</label>
+                <input type="password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>error message</small>
+            </div>
+
+            <div class="form-control">
+                <label><i class="fas fa-lock"></i>Confirm Password</label>
+                <input type="password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>error message</small>
+            </div>
+
+            <button class="Neumorphism">Submit</button>
+        </form>
+    </section>
 </body>
 </html>
