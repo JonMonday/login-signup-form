@@ -64,11 +64,6 @@ input{
     width: 100%;
 }
 
-h2{
-    font-size: clamp(20px, 3vW, 30px);
-    padding-top: 20px;
-}
-
 small{
     visibility: hidden;
     position: absolute;
@@ -76,7 +71,8 @@ small{
     right: 0;
 }
 
-.fa-user-cog{
+.fa-user-cog,
+.fa-user-alt{
     color: #FA8072  ;
     font-size: clamp(60px, 10vw, 80px);
 }
@@ -100,7 +96,6 @@ button{
     color: #F7F9F9;
 }
 
-h1,
 label{ 
     color: #1C2833  ;
 }
