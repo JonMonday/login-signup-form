@@ -37,7 +37,8 @@ section{
 }
 
 form{
-    padding: 30px 40px;
+    padding-inline: 30px;
+    padding-top: 40px;
 }
 
 .form-control{
@@ -76,8 +77,8 @@ small{
 }
 
 .fa-user-cog{
-    color: #2980B9 ;
-    font-size: clamp(40px, 10vw, 80px);
+    color: #FA8072  ;
+    font-size: clamp(60px, 10vw, 80px);
 }
 
 .fa-check-circle,
@@ -89,7 +90,7 @@ small{
 }
 
 button{
-    background-color: #2980B9 ;
+    background-color: #FA8072 ;
     font-family: inherit;
     font-size: 16px;
     border: 0;
@@ -108,8 +109,10 @@ label{
     border-color: #2ECC71 ;
 }
 
-.success .fa-check-circle{
-    color: #2ECC71 ;
+.success .fa-check-circle,
+.success small,
+.success label{
+    color: #2ECC71;
     visibility: visible;
 }
 
@@ -117,12 +120,19 @@ label{
     border-color: #e74c3c;
 }
 
-.error .fa-exclamation-circle{
+.error .fa-exclamation-circle,
+.error small,
+.error label{
     color: #e74c3c;
     visibility: visible;
 }
 
-.error small{
-    color: #e74c3c;
-    visibility: visible;
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #1C2833;
 }
